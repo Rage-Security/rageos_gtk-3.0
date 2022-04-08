@@ -1,0 +1,92 @@
+vte-terminal { 
+    padding: 8px; 
+}
+
+
+#whiskermenu-button image {
+  -gtk-icon-shadow: 0 0 3px #3B4252, 0 0 3px #3B4252; 
+}
+
+#whiskermenu-window entry {
+  border-radius: 100px;
+  border: 2px solid #3B4252;
+  box-shadow: none; }
+  
+#whiskermenu-window{
+	background-color: #2B303C;
+}
+#whiskermenu-window button {
+  transition-duration: 0s; }
+  #whiskermenu-window button:hover {
+    color: white;
+    border-color: black;
+    background-color: transparent;
+    background-image: image(#3B4252);
+    background-clip: padding-box;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+    text-shadow: 0 1px black;
+    -gtk-icon-shadow: 0 1px black;
+    outline-color: rgba(255, 255, 255, 0.3);
+    border-color: transparent;
+    border-bottom-color: #3B4252; }
+  #whiskermenu-window button:checked {
+    border-color: transparent; }
+
+#whiskermenu-window scrolledwindow.frame {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 7px 10px;
+  margin: 0 5px; }
+  #whiskermenu-window scrolledwindow.frame, #whiskermenu-window scrolledwindow.frame iconview:not(:hover):not(:focus) {
+    background: #2B303C; }
+  #whiskermenu-window scrolledwindow.frame treeview {
+    background: transparent;
+    border-radius: 4px; }
+    #whiskermenu-window scrolledwindow.frame treeview:hover, #whiskermenu-window scrolledwindow.frame treeview:active, #whiskermenu-window scrolledwindow.frame treeview:selected {
+      background-color: rgba(0, 0, 0, 0.27);
+      color: inherit; }
+
+
+#whiskermenu-button{
+	padding: 7px;
+	margin: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+	border-radius: 10px;
+}
+
+
+#clock-button{
+	padding: 7px;
+	margin: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+	border-radius: 10px;
+	color: #eff1f6;
+	background-color: rgba(76, 86, 106, 0.3);
+}
+
+#clock-button:hover{
+	padding: 7px;
+	margin: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+	border-radius: 10px;
+	color: #eff1f6;
+	background-color: rgba(76, 86, 106, 1);
+}
+
+
+.xfce4-panel.background .tasklist button:checked {
+	  background-color: rgba(76, 86, 106, 0.3);
+	  border-image: image(#ffffff) 0 0 2/0 0 2px;
+	  border-color: #ffffff
+}
+
+
+.tasklist button:hover {
+	border-image: image(#ffffff) 0 0 2/0 0 2px;
+    border-color: #D8DEE9;
+	background-color: rgba(76, 86, 106, 0.3);
+}
